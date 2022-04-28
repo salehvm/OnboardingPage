@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/salehvm/OnboardingPage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'salehvm' => 'saleh.majidov@ibar.az' }
+  s.author           = { 'salehvm' => 'infosalehmajidov@gmail.com' }
   s.source           = { :git => 'https://github.com/salehvm/OnboardingPage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'OnboardingPage/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'OnboardingPage' => ['OnboardingPage/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'OnboardingPage' => ['OnboardingPage/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

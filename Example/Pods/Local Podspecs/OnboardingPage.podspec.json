@@ -1,0 +1,27 @@
+{
+  "name": "OnboardingPage",
+  "version": "0.1.0",
+  "summary": "A short description of OnboardingPage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/salehvm/OnboardingPage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "salehvm": "infosalehmajidov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/salehvm/OnboardingPage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "OnboardingPage/Classes/**/*",
+  "resource_bundles": {
+    "OnboardingPage": [
+      "OnboardingPage/Assets/*.png"
+    ]
+  }
+}
